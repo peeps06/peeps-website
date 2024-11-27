@@ -1,0 +1,139 @@
+/* General reset for margin, padding, and font settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif; /* Default font for body */
+}
+
+/* Body styles */
+body {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 20px;
+    background-image: url('images/background.jpeg');
+    background-size: cover; /* Ensures the image covers the whole background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+}
+
+/* Header styles */
+h1, h2, h3 {
+    font-family: 'Pixel', sans-serif; /* Pixel-style font for headers */
+    color: #333;
+}
+
+/* Button styles */
+button {
+    font-family: 'Pixel', sans-serif; /* Pixel-style font for buttons */
+    background-color: red; /* Red background */
+    color: white; /* White text */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase; /* Uppercase text for buttons */
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: darkred; /* Darker red on hover */
+}
+
+/* Links styles */
+a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Links hover effect */
+a:hover {
+    color: grey; /* Grey text on hover */
+}
+
+/* Simple container with max width and centering */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #f1f1f1;
+    color: grey;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Pixel-style font for headers */
+@font-face {
+    font-family: 'Pixel';
+    src: url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+}
+/* Apply the pixel font to the entire page */
+body {
+    font-family: 'Press Start 2P', sans-serif; /* Use the pixel font for the body text */
+}
+
+/* Header styles (pixel font for headers) */
+h1, h2, h3 {
+    font-family: 'Press Start 2P', sans-serif; /* Apply the pixel font */
+    color: #333; /* Dark color for the text */
+}
+
+/* Button styles */
+button {
+    font-family: 'Press Start 2P', sans-serif; /* Apply the pixel font to buttons */
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: darkred;
+}
+
+/* Image styles (optional) */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+}
+/* Styling the link */
+.styled-link {
+    text-decoration: none; /* Remove the underline */
+    color: white;          /* Text color */
+    background-color: red; /* Background color */
+    padding: 10px 20px;    /* Padding around the text */
+    border-radius: 5px;    /* Rounded corners */
+    font-family: Arial, sans-serif; /* Font */
+    font-size: 16px;       /* Font size */
+    display: inline-block; /* Make the link behave like a block element */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for color changes */
+}
+
+/* Hover effect - when mouse is over the link */
+.styled-link:hover {
+    background-color: darkred; /* Change background on hover */
+    color: yellow;             /* Change text color on hover */
+}
+
+/* Active effect - when the link is clicked */
+.styled-link:active {
+    background-color: darkgreen; /* Change background when clicked */
+    color: white;                /* Change text color when clicked */
+}
